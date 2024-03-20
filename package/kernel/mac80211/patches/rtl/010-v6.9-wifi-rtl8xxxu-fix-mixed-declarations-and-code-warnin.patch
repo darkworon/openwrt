@@ -16,8 +16,10 @@ Link: https://msgid.link/TYAP286MB03157A408E0D69F2F6FBD88ABC552@TYAP286MB0315.JP
  drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_core.c | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
 
---- a/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_core.c
-+++ b/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_core.c
+Index: backports-6.6.15/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_core.c
+===================================================================
+--- backports-6.6.15.orig/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_core.c
++++ backports-6.6.15/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_core.c
 @@ -4919,11 +4919,11 @@ static void rtl8xxxu_set_aifs(struct rtl
  	int i;
  
