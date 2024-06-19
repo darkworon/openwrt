@@ -1,6 +1,6 @@
 --- a/include/net/cfg80211.h
 +++ b/include/net/cfg80211.h
-@@ -3324,12 +3324,12 @@ enum wiphy_params_flags {
+@@ -3322,12 +3322,12 @@ enum wiphy_params_flags {
  #define IEEE80211_DEFAULT_AIRTIME_WEIGHT	256
  
  /* The per TXQ device queue limit in airtime */
